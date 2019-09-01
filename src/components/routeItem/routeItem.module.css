@@ -1,0 +1,30 @@
+.routeItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  padding: 4px;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  cursor: pointer;
+}
+
+.routeItem__item {
+  color: #ffffff;
+  width: calc(80% - 5px);
+  margin-right: 5px;
+  word-wrap: break-word;
+}
+
+.routeItem__btn {
+  width: 20%;
+  height: 20px;
+  background: #ffffff;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}

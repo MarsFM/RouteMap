@@ -1,0 +1,24 @@
+.app {
+  height: 100vh;
+}
+
+.app__wrapper {
+  max-width: 900px;
+  margin: 5% auto 0px;
+  padding: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  border-radius: 5px;
+  border: 1px solid #eeeeee;
+}
+
+.app__left {
+  width: calc(30% - 10px);
+  margin-right: 10px;
+}
+
+.app__right {
+  width: 70%;
+}
